@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VideoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="VideoModelStoreContainer" />
+  <!--Se encontraron errores durante la generación:
+      advertencia 6013: La tabla o vista 'Video.dbo.Video' no tiene una clave principal definida y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+      
+      <EntityType Name="Video">
+        <Property Name="idVideo" Type="int" />
+        <Property Name="Titulo" Type="char" MaxLength="100" />
+        <Property Name="Repro" Type="int" />
+        <Property Name="idVideoR" Type="int" />
+        <Property Name="URL" Type="char" MaxLength="50" />
+      </EntityType>-->
+</Schema>
